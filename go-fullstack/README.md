@@ -5,4 +5,7 @@ npm install
 ng serve  
 
 cd backend  
+npm install --save express  
+npm install --save mongoose  
+npm install --save body-parser  
 node server  
