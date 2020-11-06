@@ -9,3 +9,5 @@ npm install --save express
 npm install --save mongoose  
 npm install --save body-parser  
 node server  
+
+http://localhost:4200/  
