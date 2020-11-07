@@ -12,6 +12,4 @@ ng serve
 cd backend  
 npm install   
 node server
-
-# url
-http://localhost:4200/part-four/auth/login  
+xdg-open http://localhost:4200/part-four/auth/login  
