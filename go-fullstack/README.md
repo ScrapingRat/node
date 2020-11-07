@@ -10,9 +10,7 @@ ng serve
 # backend
 
 cd backend  
-npm install --save express  
-npm install --save mongoose  
-npm install --save body-parser  
+npm install   
 node server  
 
 http://localhost:4200/  
