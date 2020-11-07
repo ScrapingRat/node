@@ -9,8 +9,17 @@ ng serve
 
 # backend
 
+## part 1, 2 & 3
+git checkout d47943b  
 cd backend  
 npm install   
-node server  
+node server
 
+## part 4
+git checkout main  
+cd backend  
+npm install   
+node server
+
+# url
 http://localhost:4200/  
