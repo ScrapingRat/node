@@ -9,8 +9,6 @@ ng serve
 
 # backend
 
-## part 4
-
 cd backend  
 npm install   
 node server
