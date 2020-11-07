@@ -1,11 +1,9 @@
 const Thing = require('../models/thing');
 
 exports.createThing = (req, res, next) => {
-	const thingObject = JSON.parse(req.body.thing);
-	delete thingObject._id;
+	delete req.body._id;
 	const thing = new Thing({
-		...thingObject,
-		imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
+		...req.body
 	});
 	thing.save()
 		.then(() => res.status(201).json({ message: 'item added' }))
