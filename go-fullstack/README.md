@@ -16,7 +16,7 @@ npm install
 node server
 
 ## part 4
-git checkout main  
+git checkout . main  
 cd backend  
 npm install   
 node server
