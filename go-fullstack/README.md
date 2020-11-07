@@ -10,7 +10,7 @@ ng serve
 # backend
 
 ## part 4
-git checkout main backend    
+
 cd backend  
 npm install   
 node server
