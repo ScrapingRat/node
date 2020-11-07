@@ -7,6 +7,7 @@ mongoose.connect('mongodb+srv://commerce:commerce1@cluster0.8kcer.mongodb.net/te
 	{	useNewUrlParser: true,
 		useUnifiedTopology: true })
 	.then(() => console.log('Successfully connected to MongoDB'))
+	.then(() => console.log('running at http://localhost:4200/'))
 	.catch(() => console.log('Connection to MongoDB failed'));
 
 const bodyParser = require('body-parser');
