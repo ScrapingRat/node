@@ -9,12 +9,6 @@ ng serve
 
 # backend
 
-## part 1, 2 & 3
-git checkout 17963a4 backend  
-cd backend  
-npm install   
-node server
-
 ## part 4
 git checkout main backend    
 cd backend  
